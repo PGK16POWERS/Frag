@@ -1,5 +1,6 @@
 [versions]
 agp = "8.4.1"
+googleMaterial = "1.12.0"
 junit = "4.13.2"
 junitVersion = "1.1.5"
 espressoCore = "3.5.1"
@@ -9,6 +10,8 @@ activity = "1.8.0"
 constraintlayout = "2.1.4"
 materialVersion = "1.4.0"
 navigationFragment = "2.7.7"
+navigationFragmentVersion = "2.3.5"
+navigationUi = "2.3.5"
 
 [libraries]
 junit = { group = "junit", name = "junit", version.ref = "junit" }
@@ -18,9 +21,12 @@ appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "a
 material = { group = "com.google.android.material", name = "material", version.ref = "material" }
 activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
 constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+material-v1120 = { module = "com.google.android.material:material", version.ref = "googleMaterial" }
 material-v140 = { module = "com.google.android.material:material", version.ref = "materialVersion" }
 navigation-fragment = { module = "androidx.navigation:navigation-fragment", version.ref = "navigationFragment" }
+navigation-fragment-v235 = { module = "androidx.navigation:navigation-fragment", version.ref = "navigationFragmentVersion" }
 navigation-ui = { module = "androidx.navigation:navigation-ui", version.ref = "navigationFragment" }
+navigation-ui-v235 = { module = "androidx.navigation:navigation-ui", version.ref = "navigationUi" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
