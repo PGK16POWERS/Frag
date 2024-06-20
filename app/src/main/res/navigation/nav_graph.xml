@@ -18,6 +18,6 @@
     <fragment
         android:id="@+id/navigation_notifications"
         android:name="com.example.frag.NotificationsFragment"
-        android:label="Notifications"
+        android:label="Notification"
         tools:layout="@layout/fragment_notifications" />
 </navigation>
